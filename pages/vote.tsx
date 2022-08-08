@@ -18,11 +18,11 @@ const Vote: NextPage = () => {
           `}
         gridTemplateRows={'80px 1fr'}
         gridTemplateColumns={'280px 1fr'}
-        h='100vh'
         gap='1%'
         color='blackAlpha.700'
         fontWeight='bold'
-        bgGradient='linear(to-br, #601D4C, #206549)'
+        minHeight='100vh'
+        bgGradient='linear(to-br, #601D4C, #214E6E, #206549)'
       >
         <GridItem pl='2' area={'header'}>
           <Navbar />

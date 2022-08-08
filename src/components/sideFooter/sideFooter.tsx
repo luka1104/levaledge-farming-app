@@ -19,8 +19,8 @@ import { MdMail } from 'react-icons/md';
 const SideFooter = () => {
     return (
         <>
-            <Center pb="20px">
-                <Grid bg="rgba(255,255,255,0.2)" width="80%" borderRadius='20' alignItems='center' color='white' opacity='0.8' height='150px'>
+            <Center pb='20px'>
+                <Grid bg="rgba(255,255,255,0.1)" width="80%" borderRadius='20' alignItems='center' color='white' opacity='0.8' height='150px'>
                     <GridItem textAlign="center" fontSize='23px'>
                         <SnsIcon snsIcon={BsTwitter} snsLink="https://twitter.com/" />
                         <SnsIcon snsIcon={FaTelegramPlane} snsLink="https://t.me/" />

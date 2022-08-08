@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Sidebar from '../src/components/sidebar/sidebar'
 import Navbar from '../src/components/navbar'
-import Main from '../src/components/farm/farm'
+import FarmContainer from '../src/components/farm/farm'
 import {
   Grid,
   GridItem,
@@ -17,9 +17,8 @@ const Farm: NextPage = () => {
           "nav main"
           `}
         gridTemplateRows={'80px 1fr'}
-        gridTemplateColumns={'280px 1fr'}
-        h='100vh'
-        gap='1%'
+        gridTemplateColumns={'290px 1fr'}
+        minHeight='100vh'
         color='blackAlpha.700'
         fontWeight='bold'
         bgGradient='linear(to-br, #601D4C, #214E6E, #206549)'
@@ -31,7 +30,7 @@ const Farm: NextPage = () => {
           <Sidebar />
         </GridItem>
         <GridItem pl='2' area={'main'}>
-          <Main />
+          <FarmContainer />
         </GridItem>
       </Grid>
     </>

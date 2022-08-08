@@ -50,7 +50,7 @@ const UpperFarmContainer = (props: any) => {
                     </Box>
                 </GridItem>
                 <GridItem area={'menus'} mt='40px'>
-                    <Button mr='15px' bgGradient='linear(to-br, #266D6F, #2E2E41, #5D3631)' color='white' width='180px' height='56px' borderRadius='12'>
+                    <Button mr='15px' bgGradient='linear(to-r, #266D6F, #2E2E41, #5D3631)' color='white' width='180px' height='56px' borderRadius='12'>
                         Main
                     </Button>
                     <Button mr='15px' bg="#1A1C30" color='#8F98A8' width='180px' height='56px' borderRadius='12'>

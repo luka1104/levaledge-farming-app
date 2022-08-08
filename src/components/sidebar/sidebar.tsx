@@ -19,7 +19,7 @@ import SideFooter from '../sideFooter/sideFooter'
 const Sidebar = () => {
   return (
     <>
-      <Stack height='100%' width='100%' bg="rgba(255,255,255,0.1)">
+      <Stack height='100%' width='100%' bg="rgba(255,255,255,0.03)" pos="fixed" w={{ base: 'full', md: 279 }}>
         <Link href='/' fontSize="4xl" fontWeight="300" width='100%' color='white' p='20px'>
           <Center>
             <Image 
@@ -35,11 +35,11 @@ const Sidebar = () => {
         <NavItem name="My Page" icon={AiOutlineDashboard} navlink="/mypage" />
         <NavItem name="Farm" icon={TbShovel} navlink="/farm" />
         <NavItem name="Lend" icon={RiMoneyDollarCircleLine} navlink="/lend" />
-        <Box border='1px' borderColor='#bbb' opacity='0.2' ></Box>
+        <Box border='1px' borderColor='#bbb' opacity='0.06' ></Box>
         <NavItem name="Calculator" icon={TbMathSymbols} navlink="/calculator" />
         <NavItem name="Vote" icon={BsFillFlagFill} navlink="/vote" />
         <NavItem name="Contributions" icon={GiTrophy} navlink="/contributions" />
-        <Spacer />
+        <Spacer  />
         <SideFooter />
       </Stack>
     </>
