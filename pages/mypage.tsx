@@ -8,7 +8,7 @@ import {
 } from '@chakra-ui/react'
 
 
-const Home: NextPage = () => {
+const MyPage: NextPage = () => {
   return (
     <>
       <Grid
@@ -31,11 +31,11 @@ const Home: NextPage = () => {
           <Sidebar />
         </GridItem>
         <GridItem pl='2' area={'main'}>
-          Home
+          My Page
         </GridItem>
       </Grid>
     </>
   )
 }
 
-export default Home
+export default MyPage
