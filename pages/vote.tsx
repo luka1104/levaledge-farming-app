@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Sidebar from '../src/components/sidebar/sidebar'
 import Navbar from '../src/components/navbar'
-import Main from '../src/components/farm/main'
+import Main from '../src/components/farm/farm'
 import {
   Grid,
   GridItem,

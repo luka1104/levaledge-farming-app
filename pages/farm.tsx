@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Sidebar from '../src/components/sidebar/sidebar'
 import Navbar from '../src/components/navbar'
-import Main from '../src/components/farm/main'
+import Main from '../src/components/farm/farm'
 import {
   Grid,
   GridItem,
@@ -22,7 +22,7 @@ const Farm: NextPage = () => {
         gap='1%'
         color='blackAlpha.700'
         fontWeight='bold'
-        bgGradient='linear(to-br, #601D4C, #206549)'
+        bgGradient='linear(to-br, #601D4C, #214E6E, #206549)'
       >
         <GridItem pl='2' area={'header'}>
           <Navbar />
