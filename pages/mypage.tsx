@@ -18,7 +18,6 @@ const MyPage: NextPage = () => {
           `}
         gridTemplateRows={'80px 1fr'}
         gridTemplateColumns={'280px 1fr'}
-        gap='1%'
         color='blackAlpha.700'
         fontWeight='bold'
         minHeight='100vh'

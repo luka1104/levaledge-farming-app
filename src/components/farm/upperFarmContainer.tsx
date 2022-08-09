@@ -24,10 +24,10 @@ const UpperFarmContainer = (props: any) => {
     return (
         <>
             <Grid   
-            templateAreas={`
-                "highlights value"
-                "menus menus"
-            `}
+                templateAreas={`
+                    "highlights value"
+                    "menus menus"
+                `}
             >   
                 <GridItem area={'highlights'}>
                     <Flex width="97%" bgGradient='linear(to-br, #343C66, #333754)' height='110px' borderRadius='20'>
