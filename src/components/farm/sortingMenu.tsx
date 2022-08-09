@@ -15,7 +15,7 @@ import {
 const SortingMenu = () => {
     return (
         <>
-            <Center color='white' fontSize='15px' fontWeight='500' pt='30px'>
+            <Center fontSize='15px' fontWeight='500' pt='30px'>
                 <Grid
                     width="95%"
                     borderBottom='1px'

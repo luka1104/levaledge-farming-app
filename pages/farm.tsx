@@ -15,7 +15,7 @@ const Farm: NextPage = () => {
           templateAreas={`
           "nav header"
           "nav main"
-          `}
+        `}
         gridTemplateRows={'80px 1fr'}
         gridTemplateColumns={'290px 1fr'}
         color='blackAlpha.700'
