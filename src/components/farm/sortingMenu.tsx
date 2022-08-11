@@ -1,5 +1,5 @@
 import React from 'react'
-import Assets from '../sortingOptions/assets'
+import Assets from '../sortingOptions/assets/assets'
 import Platform from '../sortingOptions/platform'
 import Search from '../sortingOptions/search'
 import SortBy from '../sortingOptions/sortBy'
