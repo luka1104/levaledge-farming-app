@@ -8,6 +8,7 @@ import {
     Image,
 } from '@chakra-ui/react';
 import AssetButton from './assetButton'
+// import { globalValue }  from '../../data'
 
 const Assets = () => {
     return (
@@ -27,6 +28,7 @@ const Assets = () => {
                 <AssetButton name="ORCA" img="https://s2.coinmarketcap.com/static/img/coins/200x200/11165.png" />
                 <AssetButton name="SRM" img="https://s2.coinmarketcap.com/static/img/coins/200x200/6187.png" />
                 <AssetButton name="RAY" img="https://s2.coinmarketcap.com/static/img/coins/64x64/8526.png" />
+                {/* <AssetButton {...globalValue.TMP} /> */}
             </Flex>
         </>
     )
